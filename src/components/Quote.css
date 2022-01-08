@@ -1,0 +1,50 @@
+.quote-box
+{
+    width: 80vmin;
+    height: 35vmin;
+    border-radius: 1vmin;
+    box-shadow: .1vmin .1vmin 2vmin .2vmin rgba(80,80,80,.7);
+    background-color: rgba(47, 166, 202, 0.767);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.quote-box .quote-text
+{
+    height: 80%;
+    padding: 2.2vmin;
+    font-size: 3.5vmin;
+   
+    
+}
+.quote-box .quote-author
+{
+    height:20%;
+    font-size: 3vmin;
+    padding: 1.5vmin;
+    
+}
+.button
+{
+    color:white;
+    background-color: rgba(47, 166, 202, 0.767);
+    font-size: 2.5vmin;
+    padding: 1vmin;
+    height:9vmin;
+    width:17vmin;
+    margin:2vmin;
+    border:0;
+    border-radius: 2vmin;
+    box-shadow: .1vmin .1vmin .7vmin .1vmin rgba(80, 80, 80, 0.6);
+    transition: all .3s;
+    cursor: pointer;
+}
+.button:hover
+{
+    transform: scale(1.04,1.04);
+    background-color: rgba(0, 197, 247, 0.568);
+    box-shadow: .1vmin .1vmin .8vmin .5vmin rgba(23, 145, 167, 1);
+    
+}
